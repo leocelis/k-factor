@@ -50,7 +50,7 @@ def is_ad_working(ts: int, tc: int, tu: int):
     k = k_factor(spu, cr)
 
     if k < 1:
-        return False
+        return False, spu, k, cr
 
     return True, spu, k, cr
 
@@ -58,7 +58,7 @@ def is_ad_working(ts: int, tc: int, tu: int):
 if __name__ == '__main__':
     # you can get this data at ad level for a given time range
     users = 100  # paid clicks
-    shares_sent = 500  # how many times your link was shared
+    shares_sent = 500  # how many times your content was shared
     conversions = 150  # acquired customers from shares
 
     # K-factor calculation
