@@ -57,9 +57,9 @@ def is_ad_working(ts: int, tc: int, tu: int):
 
 if __name__ == '__main__':
     # you can get this data at ad level for a given time range
-    users = 100  # paid clicks
-    shares_sent = 500  # how many times your content was shared
-    conversions = 150  # acquired customers from shares
+    users = 332  # paid clicks
+    shares_sent = 200  # how many times your content was shared
+    conversions = 100  # acquired customers from shares
 
     # K-factor calculation
     is_working, spu, k, cr = is_ad_working(shares_sent, conversions, users)
@@ -68,7 +68,7 @@ if __name__ == '__main__':
     print("")
     print("Total users (paid clicks): {}".format(users))
     print("Total shares generated: {}".format(shares_sent))
-    print("Avg. shares per user: {}".format(int(spu)))
+    print("Avg. shares per user: {}".format(spu))
     print("Total referred conversions: {}".format(conversions))
     print("Referred conversion rate: {}%".format(int(cr * 100)))
     print("K-factor: {}".format(k))
