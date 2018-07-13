@@ -11,7 +11,7 @@ python3 -v venv<br />
 
 Usage
 -----
-Update the following values in calc.py:
+Update the following values in `calc.py` with the Ad stats for a defined time range:
 
 - users = total paid clicks
 - shares_sent = total shares
