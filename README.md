@@ -1,8 +1,8 @@
 # K-factor
 
-Calculate the organic growth rate of your Ad.
+Calculate the **organic growth rate** of your Ad.
 
-A k-factor of 1 is in a "steady" state of neither growth nor decline, while a k-factor greater than 1 indicates exponential growth and a k-factor less than 1 indicates exponential decline.
+A k-factor of 1 is in a "steady" state of neither growth nor decline, while a k-factor greater than 1 indicates exponential growth and a k-factor of less than 1 indicates an exponential decline.
 
 Installation
 -----
